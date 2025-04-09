@@ -1,0 +1,36 @@
+canvas {
+  border: 1px solid #666;
+  background-color: #111; // darker than global bg for contrast
+  display: block;
+  cursor: crosshair;
+}
+
+canvas {
+  width: 100%;
+  height: calc(100vh - 60px);
+  border: 1px solid #666;
+  background-color: #111;
+}
+
+.toolbar {
+  height: 60px;
+  background: #222; // dark toolbar background
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 1rem;
+
+  input[type='color'],
+  input[type='range'],
+  button {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
+
+  button:hover {
+    background-color: #444;
+  }
+}

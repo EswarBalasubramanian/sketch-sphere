@@ -1,0 +1,16 @@
+<!-- <form [formGroup]="colorControl"> -->
+  <div class="toolbar">
+    <input type="color" [formControl]="colorControl" />
+    <input type="range" min="1" max="10" [formControl]="strokeWidthControl" />
+    <button type="button" (click)="clearCanvas()">Clear</button>
+    <button (click)="undo()">Undo</button>
+    <button (click)="redo()">Redo</button>
+  </div>
+<!-- </form> -->
+
+<canvas
+  #canvas
+  appCanvasdraw
+  [strokeColor]="colorControl.value || '#FFFFFF'"
+  [strokeWidth]="strokeWidthControl.value || 2"
+></canvas>
