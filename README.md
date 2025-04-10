@@ -2,6 +2,13 @@
 
 An Angular-based whiteboard application that allows users to draw freehand with customizable stroke width and color. Built with modular design in mind, this MVP sets the foundation for advanced features like zoom/pan, undo/redo, and shape tools. It is a drawing application made using Angular. It allows users to draw freely on the screen using mouse. We can change the stroke color and width. I used reactive forms (FormControlName) instead of ngModel and handled the canvas mouse events inside a directive for better structure.
 
+
+## Deployed Site
+
+You can view the live application at:
+
+[https://eswarbalasubramanian.github.io/sketch-sphere/](https://eswarbalasubramanian.github.io/sketch-sphere/)
+
 ---
 
 ## ✨ Features
@@ -49,3 +56,4 @@ Open your browser and go to `http://localhost:4200`.
 ## 📃 License
 
 MIT
+
