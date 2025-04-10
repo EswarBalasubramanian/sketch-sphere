@@ -25,7 +25,7 @@ jobs:
         run: npm install -g @angular/cli@19.0.7
 
       - name: Build Angular app
-        run: ng build --prod --base-href=/sketch-sphere/
+        run: ng build --configuration production --base-href=/sketch-sphere/
 
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
