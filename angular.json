@@ -17,6 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
+            "baseHref": "/sketch-sphere/",
             "outputPath": "dist/sketch-sphere",
             "index": "src/index.html",
             "browser": "src/main.ts",
